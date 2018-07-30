@@ -1,0 +1,691 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
+input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+ .clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; } 
+
+ * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* mainHeaderHome */
+
+* {
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.homeNavSection {
+    width: 100%;
+
+}
+
+header {
+    width: 100%;
+    padding-top: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    background-color: #ffffff;
+    width: 1920px;
+}
+
+
+body {
+    width: 100%;
+    max-width: 1400px;
+}
+
+.upperHeader {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.navHomeLeft, .title {
+    float: left;
+    width: 33%;
+}
+
+.navHomeRight {
+    float: right;
+    width: 33%;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    padding-left: 80px;
+    margin-top: 8px;
+}
+
+.navHomeLeft {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.navHomeRight {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+.navHomeLeft ul {
+    list-style-type: none;
+    justify-content: center;
+}
+
+.navHomeLeft a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 9px;
+    padding: 20px;
+    font-weight: 700;
+}
+
+.navHomeRight a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 9px;
+    padding: 15px 8px 0 15px;
+    font-weight: 700;
+}
+
+.navHomeLeft a:hover {
+    color: #999999;
+}
+
+.navHomeRight a:hover {
+    color: #999999;
+}
+
+.navHomeRight ul {
+    list-style-type: none;
+}
+
+.navHomeRight i {
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+
+/* START OF HOME SECTION */
+
+
+.homeSectionOne {
+    background: #ededed;
+    max-width: 1920px;
+    height: 500px;
+}
+
+.aboutUs h6 {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #999999;
+    letter-spacing: 6px;
+    margin: 0 auto;
+}
+
+.aboutImageContainer {
+    position: relative;
+    margin: 40px;
+}
+
+.beachImage img {
+    width: 30.8%;
+    height: 7.4%;
+    border: 7px solid white;
+    float: left;
+    position: relative;
+    z-index: 5;
+}
+
+.monalisaLogo img {
+    width: 23.1%;
+    height: 4.2%;
+    z-index: 1;
+}
+
+.aboutUs h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    float: right;
+}
+
+.aboutUs p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    color: #999999;
+    width: 25.9%;
+    height: 3.2%;
+    line-height: 17px;
+    float: right;
+}
+
+.aboutUs span {
+    color: black;
+    font-weight: 700;
+}
+
+.homeSectionTwo {
+    max-width: 1920px;
+    height: 14.5%;
+}
+
+.homeSectionTwo strong {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.homeSectionTwo p {
+    color: #999999;
+    font-size: 8.5px;
+    letter-spacing: 0.3px;
+}
+
+.homeInclusions {
+    float: left;
+    width: 60%;
+}
+
+.homeInclusions img {
+    width: 30.3%;
+    float: right;
+
+}
+
+.sunnySeason {
+    width: 13.7%;
+    height: 2.1%;
+}
+
+.flightIncluded {
+    width: 13.7%;
+    height: 2.1%;   
+}
+
+.guidedNatureExcursions {
+    width: 13.7%;
+    height: 2.1%;
+}
+
+.fiveStarRestaurants {
+    width: 13.7%;
+    height: 2.1%;
+}
+
+.allInclusive {
+    width: 13.7%;
+    height: 2.1%;
+}
+
+.wakeUpService {
+    width: 13.7%;
+    height: 2.1%;
+}
+
+/* CLEARFIX APPLIED FOR NOW UNTIL SECTION FUCKERY IS FIXED */
+.homeSectionTwo img {
+    width: 35.2%;
+    height: 14.5%;
+    padding: 0 1px 2px 10px;
+}
+
+.homeSectionThree {
+    max-width: 100%;
+    height: 30.2%;
+    background: #ededed;
+}
+
+.homeSectionThree h6 {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #999999;
+    letter-spacing: 6px;
+    margin: 0 auto;
+}
+
+.homeSectionThree h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    float: right;
+}
+
+/* ENSURE ITALIC WAS SELECTED FROM FONT AWESOME FOR THE BELOW FONT */
+
+.homeTestimonial p {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.fiveStars {
+    color: rgb(246, 171, 8);
+}
+
+.homeSectionThree strong {
+    font-family: 'Poppins', sans-serif;
+    font-size: 9.5px;
+}
+
+.homeSectionThree h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+    color: #999999;
+    font-weight: 400;
+}
+
+.homeSectionThree span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+    color: black;
+    font-weight: 700;    
+}
+
+/* CREATE BORDER(?) AROUND SECTION */
+
+.homeSectionFour {
+    background: #ededed;
+    width: 100%;
+    height: 30.2%;
+}
+
+.homeSectionFour h6 {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #999999;
+    letter-spacing: 5px;
+    margin: 0 auto;
+}
+
+.homeSectionFour h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+}
+
+.galleryContainer figure {
+
+}
+
+.homeSectionFour img {
+    width: 19.3%;
+    height: 14.6%;
+    margin: 7px;
+    float: left;
+    display: table-column;
+}
+
+.homeSectionFive {
+    height: 14.5%;
+}
+
+.homeSectionFive img {
+    width: 56%;
+    height: 14.5%;
+    float: left;
+}
+
+.homeSectionFive h5 {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #999999;
+    letter-spacing: 5px;
+    margin: 0 auto;
+    padding-top: 50px;   
+}
+
+.homeSectionFive h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+}
+
+.homeSectionFive strong {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.homeSectionFive span {
+    font-family: 'Playfair Display', serif;
+    color: #cccccc;
+    font-weight: 700;
+}
+
+.homeSectionFive h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+}
+
+.homeSectionFive p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+    font-weight: 400; 
+    color: #666666;  
+}
+
+.homeSectionFive h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+    color: #999999;
+}
+
+.homeSectionFive h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.homeContact {
+    padding: 20px 40px 50px 20px;
+}
+
+footer {
+    background-color: #212020;
+    width: 100%;
+    height: 6%;
+}
+
+.homeFooterContainer li {
+    font-family: 'Poppins', sans-serif;
+    color: #999999;
+    font-size: 8px;
+    list-style-type: none;
+}
+
+.homeFooterContainer li:hover {
+    color: #ffffff;
+}
+
+.homeFooterContainer p {
+    font-family: 'Poppins', sans-serif;
+    color: #999999;
+    font-size: 8px;
+}
+
+.homeBottomFooter h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #666666;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.homeBottomFooter i {
+    color: #ffffff;
+    padding: 15px;
+    font-size: 10px;
+}
+
+.homeBottomFooter i:hover {
+    color: #666666;
+}
+
+/* REFER ABOVE TO THE formfun lesson from week 2 day 1!!!!! for svg form thing */
+    
+
+/* START OF BLOG SECTION */
+
+
+
+.blogSectionOne h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.blogSectionOne h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+}
+
+.blogSectionOne span {
+    color: #999999;
+    font-weight: 400;
+}
+
+.blogSectionOne img {
+    width: 3.6%;
+    height: 1.7%;
+}
+
+/* WHY YA AINT PROPER BOLD, SON?????? */
+
+.blogSectionOne strong {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.blogSectionOne h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+    color: #999999;
+    font-weight: 400;
+}
+
+.blogSectionOne h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+/* ALL y'all above... BOLD!!!! I TELL YA!!!! */
+
+.blogSectionOne strong {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+} 
+
+/* DISPLAY IN LINE BLOCK???? */
+
+.blogSectionOne p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+    color: #999999;
+    font-weight: 400;
+    padding: 8px;
+}
+
+/* BOLD BELOW AS WELL.... */
+
+.blogReviewSocials strong {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.blogReviewSocials i {
+    color: #999999;
+    font-size: 10px;
+}
+
+/* Determine seperate hover colors for each social */
+
+.blogReviewSocials i:hover {
+    color: #00ccff;
+}
+
+.blogSectionTwo h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+
+.blogSectionTwo img {
+    width: 19.3%;
+    height: 6.6%;
+}
+
+.blogSectionTwo h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+    color: #999999;
+    font-weight: 400;
+}
+
+.blogSectionTwo p {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.blogSectionTwo p:hover {
+    text-decoration: underline;
+}
+
+.blogSectionTwo a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+    color: #999999;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.blogSectionTwo a:hover {
+    color: black;
+}
+
+.blogSectionThree h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+
+.blogSectionThree img {
+    width: 3.9%;
+    height: 1.8%;
+}
+
+.blogSectionThree strong {
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+}
+
+.blogSectionThree em {
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    color: #33cccc;
+}
+
+.blogSectionThree p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    color: #666666;
+}
+
+.blogSectionThree h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 6.5px;
+    color: #999999;
+    font-weight: 400;
+}
+
+.commentOne {
+    width: 56.3%;
+    height: 3.2%;
+    background-color: #f6f6f6;
+    margin: 10px;
+}
+
+.commentTwo {
+    width: 56.3%;
+    height: 3.2%;
+    background-color: #f6f6f6;
+    margin: 10px;
+}
+
+.commentTwo:before {
+    /* Figure out lil triangle shapes here */
+}
+
+.blogSectionThree input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+    color: #999999;
+    font-weight: 400;
+}
+
+.blogSectionThree input:hover {
+    color: rgb(0,0,0);
+    font-weight: 700;
+}
+
+.blogButton a {
+    font-family: 'Poppins', sans-serif;
+    width: 150px;
+    height: 80px;
+    background-color: rgb(132,160,22);
+    color: rgb(255,255,255);
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.contactSectionOne h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.contactSectionOne p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    color: #999999;
+}
+
+.contactSectionOne h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.contactSectionOne h4 {
+    font-family: 'Poppins', sans-serif;
+    color: #999999;
+    font-size: 8px;
+    font-weight: 400;    
+}
+
+.contactSectionTwo h2 {
+    font-family: 'Playfair Display', serif;
+} 
+
+.contactSectionTwo p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    color: #999999;
+    padding-bottom: 40px;
+}
+
+.contactSectionTwo i {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+    color: #999999;
+    font-weight: 400;
+}
+
+.contactSectionTwo input:hover {
+    color: rgb(0,0,0);
+    font-weight: 700;
+}
+
+/* REFER TO formFun excercise for the footer form sections!!!!!!!!!!!! and the line element for elsewhere */
+
+
+
+ 
