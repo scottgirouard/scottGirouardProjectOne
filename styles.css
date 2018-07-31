@@ -564,13 +564,22 @@ footer {
     top: -55px;
 }
 
+body {
+    background: #eeeeee;
+}
+
 .blogSectionOne h2 {
     font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 28px;
 }
 
 .blogSectionOne h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 8px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .blogSectionOne span {
@@ -581,6 +590,7 @@ footer {
 .blogSectionOne img {
     width: 3.6%;
     height: 1.7%;
+    border-radius: 50%;
 }
 
 /* WHY YA AINT PROPER BOLD, SON?????? */
@@ -619,6 +629,10 @@ footer {
     color: #999999;
     font-weight: 400;
     padding: 8px;
+}
+
+.blogAdmin {
+    
 }
 
 /* BOLD BELOW AS WELL.... */
