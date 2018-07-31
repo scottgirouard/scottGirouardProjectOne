@@ -343,7 +343,7 @@ figure.homeInclusionsImage {
 }
 
 .homeSectionThree p {
-    
+
 }
 
 /* ENSURE ITALIC WAS SELECTED FROM FONT AWESOME FOR THE BELOW FONT */
@@ -558,7 +558,11 @@ footer {
 
 /* START OF BLOG SECTION */
 
-
+.mainBlogSection {
+    position: relative;
+    background-color: white;
+    top: -55px;
+}
 
 .blogSectionOne h2 {
     font-family: 'Playfair Display', serif;
