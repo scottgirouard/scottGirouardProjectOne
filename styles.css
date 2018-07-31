@@ -139,12 +139,11 @@ nav ul li {
     padding: 50px 390px 20px 390px;
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
-    font-size: 8px;
+    font-size: 7.5px;
     font-weight: 400;
     text-transform: uppercase;
     color: #999999;
-    letter-spacing: 6px;
-    margin: 0 auto;
+    letter-spacing: 5px;
 }
 
 .aboutImageContainerOne {
@@ -185,7 +184,7 @@ nav ul li {
     font-size: 28px;
     float: right;
     margin-top: 20px;
-    margin-right: 220px;
+    margin-right: 237px;
 }
 
 .aboutUs p {
@@ -346,6 +345,18 @@ article.homeTestimonial {
     background: rgba(255,255,255,0.8);
     text-align: center;
     padding:50px;
+    width: 52%;
+}
+
+.homeTestimonial h6 {
+    padding-bottom: 20px;
+    font-size: 6.5px;
+    letter-spacing: 4px;
+}
+
+.homeTestimonial h2 {
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 27px;
 }
 
 .homeTestimonial p {
@@ -356,6 +367,7 @@ article.homeTestimonial {
 
 .fiveStars {
     color: rgb(246, 171, 8);
+    padding: 20px;
 }
 
 .homeSectionThree strong {
@@ -377,12 +389,11 @@ article.homeTestimonial {
     font-weight: 700;    
 }
 
-/* CREATE BORDER(?) AROUND SECTION */
-
 .homeSectionFour {
     background: #ededed;
     width: 100%;
     height: 30.2%;
+    padding: 8%;
 }
 
 .homeSectionFour h6 {
@@ -394,15 +405,22 @@ article.homeTestimonial {
     color: #999999;
     letter-spacing: 5px;
     margin: 0 auto;
+    padding-left: 45%;
+    padding-bottom: 10px;
 }
 
 .homeSectionFour h2 {
     font-family: 'Playfair Display', serif;
     font-size: 28px;
+    padding-left: 43%;
 }
 
-.galleryContainer figure {
+.galleryContainerOne figure {
+    
+}
 
+.galleryContainerTwo figure {
+    
 }
 
 .homeSectionFour img {
@@ -431,8 +449,8 @@ article.homeTestimonial {
     text-transform: uppercase;
     color: #999999;
     letter-spacing: 5px;
-    margin: 0 auto;
-    padding-top: 50px;   
+    /* margin: 0 auto; */
+    padding-top: 50px;  
 }
 
 .homeSectionFive h2 {
