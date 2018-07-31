@@ -451,11 +451,13 @@ article.homeTestimonial {
     letter-spacing: 5px;
     /* margin: 0 auto; */
     padding-top: 50px;  
+    padding-bottom: 7px;
 }
 
 .homeSectionFive h2 {
     font-family: 'Playfair Display', serif;
     font-size: 28px;
+    padding-bottom: 30%;
 }
 
 .homeSectionFive strong {
@@ -472,6 +474,7 @@ article.homeTestimonial {
 .homeSectionFive h4 {
     font-family: 'Poppins', sans-serif;
     font-size: 8px;
+    padding-top: 20px;
 }
 
 .homeSectionFive p {
@@ -479,6 +482,7 @@ article.homeTestimonial {
     font-size: 8px;
     font-weight: 400; 
     color: #666666;  
+    padding-top: 15px;
 }
 
 .homeSectionFive h6 {
@@ -495,6 +499,8 @@ article.homeTestimonial {
 
 .homeContact {
     padding: 20px 40px 50px 20px;
+    float: right;
+    padding-right: 19%;
 }
 
 footer {
