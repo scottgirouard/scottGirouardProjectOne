@@ -319,6 +319,7 @@ figure.homeInclusionsImage {
     max-width: 100%;
     height: 30.2%;
     background: #ededed;
+    padding-top:50px;
 }
 
 .homeSectionThree h6 {
@@ -335,10 +336,17 @@ figure.homeInclusionsImage {
 .homeSectionThree h2 {
     font-family: 'Playfair Display', serif;
     font-size: 28px;
-    float: right;
+    /* float: right; */
 }
 
 /* ENSURE ITALIC WAS SELECTED FROM FONT AWESOME FOR THE BELOW FONT */
+
+article.homeTestimonial {
+    /* border: 2px solid red; */
+    background: rgba(255,255,255,0.8);
+    text-align: center;
+    padding:50px;
+}
 
 .homeTestimonial p {
     font-family: 'Playfair Display', serif;
