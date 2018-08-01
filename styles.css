@@ -346,14 +346,14 @@ figure.homeInclusionsImage {
 }
 
 .homeSectionThree p {
-
+    
 }
 
 /* ENSURE ITALIC WAS SELECTED FROM FONT AWESOME FOR THE BELOW FONT */
 
 article.homeTestimonial {
     /* border: 2px solid red; */
-    background: rgba(255,255,255,0.8);
+    background: rgb(255,255,255);
     text-align: center;
     padding:50px;
     width: 52%;
@@ -585,11 +585,20 @@ footer form {
     background: none;
     border: none;
     border-bottom: 1px solid white;
+    font-size: 9px;
+    color: #999999;
 }
 
 .homeFormBox {
     float: right;
     
+}
+
+.homeFormBox label {
+    font-family: font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    color: #999;
+    padding-bottom: 20px;
 }
 
 .homeBottomFooterSocials {
