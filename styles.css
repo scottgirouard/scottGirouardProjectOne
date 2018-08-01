@@ -743,6 +743,7 @@ footer form {
     font-weight: 700;
     text-align: center;
     display: inline;
+    margin-left: 15px;
 }
 
 .blogReviewSocials i {
@@ -768,12 +769,26 @@ footer form {
 .blogSectionTwo h2 {
     font-family: 'Playfair Display', serif;
     font-size: 18px;
+    margin-left: 37px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 .blogSectionTwo img {
-    width: 19.3%;
-    height: 6.6%;
+    width: 90%;
+    height: 50%;
 }
+
+.card {
+    width: calc((100% - 10px) / 3);
+    float: left;
+    padding-left: 38px;
+    padding-bottom: 40px;
+}
+
+/* .imgCardOne, .imgCardTwo, .imgCardThree {
+    margin-left: 25px;
+} */
 
 .blogSectionTwo h6 {
     font-family: 'Poppins', sans-serif;
@@ -807,6 +822,7 @@ footer form {
 .blogSectionThree h2 {
     font-family: 'Playfair Display', serif;
     font-size: 18px;
+    margin-left: 37px;
 }
 
 .blogSectionThree img {
